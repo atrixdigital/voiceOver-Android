@@ -1,0 +1,128 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.maximus.voicemessenger.MainActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        android:padding="@dimen/activity_horizontal_margin">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:src="@mipmap/ic_launcher" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="name"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="username"
+                android:inputType="textEmailAddress"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="password"
+                android:inputType="textPassword"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Login Button -->
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="admin"
+                android:id="@+id/radioButton"
+                android:checked="true"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="user"
+                android:id="@+id/radioButton2"
+                android:checked="false"
+                android:layout_weight="1"
+                />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="281dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:background="@color/material_deep_teal_500"
+            android:text="login"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:text="Not a member? Click to register"
+            android:id="@+id/button" />
+
+        <!-- Link to Login Screen -->
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
