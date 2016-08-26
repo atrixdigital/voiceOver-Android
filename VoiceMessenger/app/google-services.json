@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "718261842920",
+    "firebase_url": "https://voice-messenger-892c8.firebaseio.com",
+    "project_id": "voice-messenger-892c8",
+    "storage_bucket": "voice-messenger-892c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718261842920:android:3913a4d68499c340",
+        "android_client_info": {
+          "package_name": "com.maximus.voicemessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718261842920-4jjrj28luvl8mmiks71qvutgp13bme60.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWU0PPC-GJKbBsfUFbt05cC_gkYyHv3Fs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
