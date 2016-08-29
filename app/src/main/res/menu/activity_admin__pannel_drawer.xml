@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inbox"
+            android:icon="@drawable/reciewed"
+            android:title="Inbox" />
+        <item
+            android:id="@+id/sent"
+            android:icon="@drawable/sent"
+            android:title="Sent" />
+        <item
+            android:id="@+id/addemp"
+            android:icon="@drawable/adduser"
+            android:title="Add User" />
+        <item
+            android:id="@+id/delemp"
+            android:icon="@drawable/removeusers"
+            android:title="Remove User" />
+        <item
+            android:id="@+id/reqemp"
+            android:icon="@drawable/employees"
+            android:title="Aprove Request" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+    </group>
+
+
+</menu>
